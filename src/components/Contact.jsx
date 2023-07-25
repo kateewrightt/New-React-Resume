@@ -7,6 +7,12 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import linkedin from "../assets/company/linkedin.png";
+import github from "../assets/company/github.png";
+
+
+
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -74,8 +80,21 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Let's keep in touch</p>
         <h3 className={styles.sectionHeadText}>💬 Connect</h3>
-
-        
+        <div className='flex space-x-4 mt-4'>
+        <div>
+          <p>Message me on LinkedIn</p>
+          <a href="https://www.linkedin.com/in/kate-wright-profile/" target="_blank" rel="noopener noreferrer">
+            <img src={linkedin} alt="LinkedIn" className="w-8 h-8 cursor-pointer" />
+          </a>
+        </div>
+        <div></div>
+        <div>
+          <p>Stalk me on Github</p>
+          <a href="https://github.com/kateewrightt" target="_blank" rel="noopener noreferrer">
+            <img src={github} alt="GitHub" className="w-8 h-8 cursor-pointer" />
+          </a>
+        </div>
+      </div>
       </motion.div>
 
       <motion.div

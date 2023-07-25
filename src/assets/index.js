@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./kate.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -25,6 +25,8 @@ import meta from "./company/meta.png";
 import westpac from "./company/westpac.png";
 import atlassian from "./company/atlassian.png";
 import qut from "./company/qut.jpeg";
+import mbc from "./company/mbc.png";
+import bielby from "./company/bielby.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -56,6 +58,8 @@ export {
   westpac,
   atlassian,
   qut,
+  mbc,
+  bielby,
   carrent,
   jobit,
   tripguide,
