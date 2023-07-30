@@ -22,7 +22,7 @@ const Hero = () => {
             I'm a girl in tech who loves to blend creativity and technology... 
           </p>
           <br></br>
-          <i>Hint: Try moving around my retro computer.</i>
+          <i>Hint: Try moving around my retro computer...</i>
         </div>
       </div>
       <ComputersCanvas />
