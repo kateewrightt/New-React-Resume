@@ -28,8 +28,8 @@ import qut from "./company/qut.jpeg";
 import mbc from "./company/mbc.png";
 import bielby from "./company/bielby.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import TaskMaster from "./TaskMaster.png";
+import ReactResume from "./ReactResume.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -60,7 +60,7 @@ export {
   qut,
   mbc,
   bielby,
-  carrent,
-  jobit,
+  TaskMaster,
+  ReactResume,
   tripguide,
 };

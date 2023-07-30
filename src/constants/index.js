@@ -21,8 +21,8 @@ import {
   mbc,
   bielby,
   westpac,
-  carrent,
-  jobit,
+  TaskMaster,
+  ReactResume,
   tripguide,
   threejs,
 } from "../assets";
@@ -185,47 +185,44 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "This Website!",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Javascript web app utilizing React to showcase my skills, experience, and accomplishments in an interactive and visually appealing online resume format.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Javascript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: ReactResume,
+    source_code_link: "https://github.com/kateewrightt/New-React-Resume",
   },
   {
-    name: "Job IT",
+    name: "Task Master",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "C# Application that organizes tasks efficiently through intelligent task sequencing and resource optimization. ",
     tags: [
       {
-        name: "react",
+        name: "C#",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Terminal App",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: TaskMaster,
+    source_code_link: "https://github.com/kateewrightt/TaskMaster",
   },
+
   {
     name: "Trip Guide",
     description:
