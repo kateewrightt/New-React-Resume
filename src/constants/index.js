@@ -4,14 +4,14 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  java,
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
+  sql,
+  python,
   nodejs,
-  mongodb,
+  Csharp,
   git,
   figma,
   docker,
@@ -23,8 +23,8 @@ import {
   westpac,
   TaskMaster,
   ReactResume,
-  tripguide,
-  threejs,
+  DVDHub,
+  aws,
 } from "../assets";
 
 export const navLinks = [
@@ -79,32 +79,32 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Java",
+    icon: java,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "SQL",
+    icon: sql,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Python",
+    icon: python,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "C#",
+    icon: Csharp,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "AWS",
+    icon: aws,
   },
   {
     name: "git",
@@ -224,25 +224,21 @@ const projects = [
   },
 
   {
-    name: "Trip Guide",
+    name: "DVD Hub",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "C# Application that manages a movie collection, allowing users to add, remove, search, and compare movies, while providing details and statistics about the collection.",
     tags: [
       {
-        name: "nextjs",
+        name: "C#",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Terminal App",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: DVDHub,
+    source_code_link: "https://github.com/kateewrightt/DVDHub",
   },
 ];
 

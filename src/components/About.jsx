@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import kateabout from "../assets/katehi.png";
+import kateabout from "../assets/kateabout.png";
 
 
 const ServiceCard = ({ index, title, icon }) => (

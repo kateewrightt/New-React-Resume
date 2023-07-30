@@ -11,6 +11,8 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import katejourney from "../assets/katejourney.png";
+
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -64,7 +66,7 @@ const Experience = () => {
           What I have been up to
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          👩‍💻 My Journey
+          <img src={katejourney} alt="Kate's Image" className="h-[1.5em] w-[1.5em] inline align-text-bottom" /> My Journey
         </h2>
       </motion.div>
 

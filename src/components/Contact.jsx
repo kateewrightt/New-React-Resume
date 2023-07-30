@@ -9,9 +9,7 @@ import { slideIn } from "../utils/motion";
 
 import linkedin from "../assets/company/linkedin.png";
 import github from "../assets/company/github.png";
-
-
-
+import kateconnect from "../assets/kateconnect.png";
 
 const Contact = () => {
   const formRef = useRef();
@@ -79,7 +77,9 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Let's keep in touch</p>
-        <h3 className={styles.sectionHeadText}>💬 Connect</h3>
+        <h3 className={styles.sectionHeadText}>
+          <img src={kateconnect} alt="Kate's Image" className="h-[1.5em] w-[1.5em] inline align-text-bottom" /> Connect
+        </h3>
         <div className='flex space-x-4 mt-4'>
         <div>
           <p>Message me on LinkedIn</p>

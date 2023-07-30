@@ -7,6 +7,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import kateprojects from "../assets/kateprojects.png";
 
 const ProjectCard = ({
   index,
@@ -72,20 +73,21 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>Stuff I've done</p>
-        <h2 className={`${styles.sectionHeadText}`}>🚀 Projects</h2>
+        <h2 className={`${styles.sectionHeadText}`}>
+          <img src={kateprojects} alt="Kate's Image" className="h-[1.5em] w-[1.5em] inline align-text-bottom" /> My Projects
+        </h2>
       </motion.div>
 
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
-        >
-          Explore through my collection of diverse and innovative projects, 
-          showcasing my creativity and technical skills. From web and mobile 
-          apps to data analysis and automation tools, each project reflects 
-          my passion for solving real-world problems. Witness the intersection 
-          of functionality, user experience, and elegant design as I deliver 
-          impactful solutions.
+          className='mt-4 text-secondary text-[20px] max-w-6xl leading-[30px]'
+          >
+          Explore my collecition of diverse projects, showcasing the unique blend 
+          of my creativity and technical skills. From dynamic web applcations to
+          insightful data analysis and automation tools, each project reflects my 
+          genuine passion for tackling real-world problems and crafting solutions 
+          that make a meaningful impact.
         </motion.p>
       </div>
 

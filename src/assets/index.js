@@ -1,6 +1,9 @@
 import logo from "./kate.png";
 import katehi from "./katehi.png";
+import katejourney from "./katejourney.png";
+import kateprojects from "./kateprojects.png";
 import kateabout from "./kateabout.png";
+import kateconnect from "./kateconnect.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -15,13 +18,13 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
+import Csharp from "./tech/Csharp.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import sql from "./tech/sql.png";
+import python from "./tech/python.png";
+import java from "./tech/java.png";
+import aws from "./tech/aws.png";
 
 import meta from "./company/meta.png";
 import westpac from "./company/westpac.png";
@@ -31,6 +34,7 @@ import mbc from "./company/mbc.png";
 import bielby from "./company/bielby.png";
 
 import TaskMaster from "./TaskMaster.png";
+import DVDHub from "./DVDHub.png";
 import ReactResume from "./ReactResume.png";
 import tripguide from "./tripguide.png";
 
@@ -38,6 +42,9 @@ export {
   logo,
   katehi,
   kateabout,
+  katejourney,
+  kateprojects,
+  kateconnect,
   backend,
   creator,
   mobile,
@@ -51,13 +58,13 @@ export {
   git,
   html,
   javascript,
-  mongodb,
+  Csharp,
   nodejs,
   reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
+  sql,
+  python,
+  java,
+  aws,
   meta,
   westpac,
   atlassian,
@@ -66,5 +73,5 @@ export {
   bielby,
   TaskMaster,
   ReactResume,
-  tripguide,
+  DVDHub,
 };
