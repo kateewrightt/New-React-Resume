@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import katehi from "../assets/katehi.png";
 
 const Hero = () => {
   return (
@@ -16,7 +17,8 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-          Hi, I'm <span className='text-[#915EFF]'>Kate 🙋‍♀️</span>
+          Hi, I'm <span className='text-[#915EFF]'>Kate </span>
+          <img src={katehi} alt="Kate's Image" className="h-[1.5em] w-[1.5em] inline align-text-bottom ml-2" />
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I'm a girl in tech who loves to blend creativity and technology... 

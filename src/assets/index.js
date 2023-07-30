@@ -1,4 +1,5 @@
-import logo from "./kate.svg";
+import logo from "./kate.png";
+import katehi from "./katehi.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -34,6 +35,7 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  katehi,
   backend,
   creator,
   mobile,
