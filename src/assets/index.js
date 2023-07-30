@@ -27,7 +27,6 @@ import python from "./tech/python.png";
 import java from "./tech/java.png";
 import aws from "./tech/aws.png";
 
-import meta from "./company/meta.png";
 import westpac from "./company/westpac.png";
 import atlassian from "./company/atlassian.png";
 import qut from "./company/qut.jpeg";
@@ -37,7 +36,6 @@ import bielby from "./company/bielby.png";
 import TaskMaster from "./TaskMaster.png";
 import DVDHub from "./DVDHub.png";
 import ReactResume from "./ReactResume.png";
-import tripguide from "./tripguide.png";
 
 export {
   logo,
@@ -67,7 +65,6 @@ export {
   python,
   java,
   aws,
-  meta,
   westpac,
   atlassian,
   qut,
