@@ -1,6 +1,6 @@
 # Kate's Portfolio
 
-![3D Portfolio](https://i.ibb.co/9ykhLtM/Thumbnail.png)
+https://kateewrightt.github.io/New-React-Resume/
 
 ## Introduction
 
