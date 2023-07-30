@@ -2,6 +2,7 @@ import logo from "./kate.png";
 import katehi from "./katehi.png";
 import katejourney from "./katejourney.png";
 import kateprojects from "./kateprojects.png";
+import kateknow from "./kateknow.png";
 import kateabout from "./kateabout.png";
 import kateconnect from "./kateconnect.png";
 import backend from "./backend.png";
@@ -45,6 +46,7 @@ export {
   katejourney,
   kateprojects,
   kateconnect,
+  kateknow,
   backend,
   creator,
   mobile,

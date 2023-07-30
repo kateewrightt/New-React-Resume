@@ -4,6 +4,8 @@ import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 import { motion } from "framer-motion";
+import kateknow from "../assets/kateknow.png";
+
 
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -15,7 +17,7 @@ const Tech = () => {
         <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>What I Know</p>
         <h2 className={`${styles.sectionHeadText}`}>
-          Languages and Frameworks
+          <img src={kateknow} alt="Kate's Image" className="h-[1.5em] w-[1.5em] inline align-text-bottom" /> Languages and Frameworks
         </h2>
         </motion.div>
       <div className='w-full flex'>
