@@ -6,6 +6,8 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import kateabout from "../assets/katehi.png";
+
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -40,7 +42,9 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Nice to meet you</p>
-        <h2 className={styles.sectionHeadText}>👩‍🎓 About Me</h2>
+        <h2 className={styles.sectionHeadText}>
+          <img src={kateabout} alt="Kate's Image" className="h-[1.5em] w-[1.5em] inline align-text-bottom" /> About Me
+        </h2>
         <br></br>
 
 
