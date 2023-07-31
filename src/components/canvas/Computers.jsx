@@ -10,7 +10,7 @@ const Computers = ({ isMobile }) => {
   
 
   return (
-    <mesh position={isMobile ? [50, 2, 50] : [0, -1, 0.5]}>
+    <mesh position={isMobile ? [50, 10, 50] : [0, 0, 0.5]}>
     <hemisphereLight intensity={0.5} skyColor="#ffffff" groundColor="#000000" />
       <spotLight
       position={[-20, 50, 10]}
@@ -25,7 +25,7 @@ const Computers = ({ isMobile }) => {
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.1 : 0.1}
-        position={isMobile ? [0, -10, 0.5] : [0, -10, 0.5]}
+        position={isMobile ? [0, -8, 0.5] : [0, -10, 0.5]}
         rotation={[0, 0, 0]} 
         />
     </mesh>
@@ -74,7 +74,7 @@ const ComputersCanvas = () => {
           target={[0, -5, 0]} 
 
         />
-        <Computers isMobile={isMobile} />
+          {!isMobile && <Computers isMobile={isMobile} />}
       </Suspense>
 
       <Preload all />
