@@ -27,6 +27,7 @@ const ProjectCard = ({
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
+        <a href={source_code_link} target="_blank" rel="noopener noreferrer">
         <div className='relative w-full h-[230px]'>
           <img
             src={image}
@@ -63,6 +64,7 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
+        </a>
       </Tilt>
     </motion.div>
   );

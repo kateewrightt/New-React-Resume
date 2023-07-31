@@ -5,10 +5,14 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
+  if (isMobile) {
+    return null; // Return null to render nothing on mobile devices
+  }
+
   const computer = useGLTF("./retro_computer/scene.gltf" );
  
   return (
-    <mesh position={isMobile ? [50, 2, 50] : [0, -1, 0.5]}>
+    <mesh position={[0, -1, 0.5]}>
     <hemisphereLight intensity={0.5} skyColor="#ffffff" groundColor="#000000" />
       <spotLight
       position={[-20, 50, 10]}
@@ -22,8 +26,8 @@ const Computers = ({ isMobile }) => {
 
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.05 : 0.1}
-        position={isMobile ? [0, 0, 0.5] : [0, -8, 0.5]}
+        scale={0.1}
+        position={[0, -8, 0.5]}
         rotation={[0, 0, 0]} 
         />
     </mesh>
@@ -72,7 +76,7 @@ const ComputersCanvas = () => {
           target={[0, -5, 0]} 
 
         />
-      {!isMobile && <Computers isMobile={isMobile} />}
+      <Computers isMobile={isMobile} />
       </Suspense>
 
       <Preload all />
