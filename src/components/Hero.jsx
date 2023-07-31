@@ -4,6 +4,8 @@ import React, { useEffect, useState } from "react";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import katehi from "../assets/katehi.png";
+import katesad from "../assets/katesad.png";
+
 
 const Hero = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -49,28 +51,33 @@ const Hero = () => {
           </p>
           <br></br>
           <i>Hint: If you are on a computer then try moving around my retro computer...</i>
-        </div>
-      </div>
-      {!isMobile && <ComputersCanvas />}
-      
-      <div className='absolute xs:bottom-10 bottom-32 right-10'>
-        <a href='#about'>
-          <div className='w-[40px] h-[100px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
-            <motion.div
-              animate={{
-                y: [0, 60, 0],
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "loop",
-              }}
-              className='w-3 h-3 rounded-full bg-secondary mb-1'
-            />
+          {isMobile &&
+          (
+            <div className="flex justify-center items-center absolute inset-x-0 bottom-0 py-10">
+
+            <div>
+              <div className="flex justify-center">
+                <img
+                  src={katesad}
+                  alt="Kate's Image"
+                  style={{
+                    width: "30vw",
+                    maxWidth: "200px",
+                    height: "auto",
+                    marginBottom: "20px",
+                  }}
+                />
+              </div>
+              <p style={{ marginTop: "10px" }}>
+                The 3D model experience is not available on mobile devices.
+              </p>
+            </div>
           </div>
-        </a>
-      </div>
-    </section>
+      )}
+        </div>
+        </div>
+        {!isMobile && <ComputersCanvas />}
+      </section>
   );
 };
 
