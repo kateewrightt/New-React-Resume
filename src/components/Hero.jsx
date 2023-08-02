@@ -43,40 +43,32 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-          Hi, I'm <span className='text-[#915EFF]'>Kate </span>
+          I'm <span className='text-[#915EFF]'>Kate </span>
           <img src={katehi} alt="Kate's Image" className="h-[1.5em] w-[1.5em] inline align-text-bottom ml-2" />
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a girl in tech who loves to blend creativity and technology... 
+            I'm a girl in tech who loves to combine creativity and code... 
           </p>
           <br></br>
           <i>Hint: If you are on a computer then try moving around my retro computer...</i>
-          {isMobile &&
-          (
-            <div className="flex justify-center items-center absolute inset-x-0 bottom-0 py-10">
-
-            <div>
-              <div className="flex justify-center">
-                <img
-                  src={katesad}
-                  alt="Kate's Image"
-                  style={{
-                    width: "30vw",
-                    maxWidth: "200px",
-                    height: "auto",
-                    marginBottom: "20px",
-                  }}
-                />
-              </div>
-              <p style={{ marginTop: "10px" }}>
-                The 3D model experience is not available on mobile devices.
-              </p>
-            </div>
+        </div>
+        <div className='flex justify-center items-center absolute inset-0' style={{ paddingTop: "80px" }}>
+          {isMobile ? (
+          <div className='flex flex-col justify-center items-center'>
+            <img
+              src={katesad}
+              alt="Kate's Sad Image"
+              className="w-30vw max-w-[200px] h-auto mb-5"
+              />
+              <p className="mt-2 text-center">
+              Sorry, 3D computer is desktop-only.
+            </p>
           </div>
-      )}
+          ) : (
+          <ComputersCanvas />
+          )}
+          </div>
         </div>
-        </div>
-        {!isMobile && <ComputersCanvas />}
       </section>
   );
 };

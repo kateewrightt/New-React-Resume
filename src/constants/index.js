@@ -122,7 +122,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Frontend SWE Intern",
+    title: "Software Engineering Intern (FE)",
     company_name: "Atlassian",
     icon: atlassian,
     iconBg: "#383E56",
@@ -140,8 +140,6 @@ const experiences = [
       "Implemented InTune Device Management for enhanced device security and management.",
       "Provided proficient application support for Azure DevOps, ensuring smooth project collaboration.",
       "Conducted in-depth analysis of Power BI reports, extracting valuable insights for data-driven decision-making.",
-      "Made significant contributions to Bielby Holdings' IT infrastructure, optimizing processes and enhancing efficiency.",
-      "Developed and strengthened project management and technical support skills through this dynamic and challenging role.",
     ],
   },
   {

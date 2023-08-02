@@ -61,7 +61,8 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div className='mt-20 flex flex-col'>
+      <motion.div variants={textVariant(0.1)}>
         <p className={`${styles.sectionSubText} text-center`}>
           What I have been up to
         </p>
@@ -69,8 +70,6 @@ const Experience = () => {
           <img src={katejourney} alt="Kate's Image" className="h-[1.5em] w-[1.5em] inline align-text-bottom" /> My Journey
         </h2>
       </motion.div>
-
-      <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard
