@@ -59,9 +59,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[20px] max-w-6xl leading-[30px]'
       >
-        I'm a penultimate year computer science student, 
+        I'm in my final semester as a computer science student, 
         fueled by my passion for software development and 
         driven by the thrill of problem-solving. 
+        I'm expecting to graduate June 2024 with a 6.5/7.0 GPA!
       </motion.p>
       <br></br>
       <b variants={fadeIn("", "", 0.1, 1)}
@@ -71,7 +72,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[20px] max-w-6xl leading-[30px]'
       >
-        JavaScript, Java, React, Python, and C# are the 
+        JavaScript, TypeScript, React, Java, and Python are the 
         languages where I truly thrive. These are my happy 
         places where I feel confident in my abilities and 
         can create innovative solutions with ease.

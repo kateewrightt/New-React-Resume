@@ -127,7 +127,14 @@ const experiences = [
     icon: atlassian,
     iconBg: "#383E56",
     date: "Nov 2023 - Feb 2024",
-    points: ["Starting Soon!"],
+    points: [
+      "Led a project to visualise Jira project data through a force-directed graph, focusing on optimising user interaction and the meaningfulness of the displayed data.",
+      "Participated in developing the Work Suggestions feature in Jira to improve user experience and refine user flow, employing feature flags for phased rollout, impacting millions of users.",
+      "Actively engaged in enhancing the Jira website based on user feedback, with a focus on accessibility improvements.",
+      "Developed front-end components using JavaScript, TypeScript, and React, contributing to the project’s scalable architecture.",
+      "Conducted code reviews and refactored team members' code to improve efficiency and testing.",
+      "Contributed to Confluence documentation for team knowledge sharing."
+    ],
   },
   {
     title: "IT Undergraduate",

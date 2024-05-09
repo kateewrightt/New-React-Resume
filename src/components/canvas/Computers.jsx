@@ -4,6 +4,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
+
 const Computers = ({ isMobile }) => {
   if (isMobile) {
     return null; // Return null to render nothing on mobile devices

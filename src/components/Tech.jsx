@@ -32,7 +32,7 @@ const Tech = () => {
           </p>
           <br></br>
           <p className="text-secondary text-lg mb-6">
-            Programming Languages: C#, Java, JavaScript, Python, C, HTML, CSS, SQL, BASH, PHP
+            Programming Languages: JavaScript, Typescript, Python, C, C#, HTML, CSS, Java, C#, Java
             <br></br>
             Frameworks and Technology: React, Node, AWS, JUnit, Git, Bootstrap, Figma, Docker
           </p>

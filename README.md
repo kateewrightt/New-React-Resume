@@ -1,3 +1,3 @@
 # Kate's Portfolio
 
-https://katewright.netlify.app/
+https://katewright.netlify.app
