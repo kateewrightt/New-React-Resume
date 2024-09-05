@@ -60,9 +60,9 @@ const About = () => {
         className='mt-4 text-secondary text-[20px] max-w-6xl leading-[30px]'
       >
         I'm a recent computer science graduate, 
-        fueled by my passion for software development and 
-        driven by the thrill of problem-solving. 
-        I have graduated in August 2024 with a 6.5/7.0 GPA!
+        and I'm keen to continue my learning journey through side projects and engaging in this community. 
+        I graduated with a Bachelor of Computer Science with distinction 
+        in August 2024 with a 6.5/7.0 GPA!
       </motion.p>
       <br></br>
       <b variants={fadeIn("", "", 0.1, 1)}
@@ -72,10 +72,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[20px] max-w-6xl leading-[30px]'
       >
-        JavaScript, TypeScript, React, Java, and Python are the 
-        languages where I truly thrive. These are my happy 
-        places where I feel confident in my abilities and 
-        can create innovative solutions with ease.
+       I enjoy working on projects using React, JavaScript, TypeScript, 
+       and Express, and I'm really familiar with AWS for solving scaling problems. 
+       I'm also improving my Java skills and spending a lot of time on 
+       LeetCode to sharpen my algorithm knowledge. Recently, I've started 
+       exploring Go to broaden my backend expertise. 
+
       </motion.p>
       <br></br>
       <b variants={fadeIn("", "", 0.1, 1)}
@@ -85,12 +87,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[20px] max-w-6xl leading-[30px]'
       >
-      I'm a passionate music lover, with a special affinity 
-      for local Australian bands. Attending live gigs and 
-      immersing myself in the vibrant music scene brings me 
-      immense joy and inspiration. Exploring the intersection 
-      of technology and music is an exciting adventure that 
-      fuels my creative spirit.      
+        Beyond coding, I'm currently living in Brisbane, 
+        but I'm keen to move to Sydney in 2025. I've already 
+        found some nice food spots in Sydney — but if you 
+        have any food recommendations, I'd love to hear them! 
+        I also spend a lot of time with my cat, Stewie, who's 
+        always around while I'm working on my projects.     
       </motion.p>
       <br></br>
       

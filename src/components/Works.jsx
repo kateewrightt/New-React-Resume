@@ -85,11 +85,9 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-4 text-secondary text-[20px] max-w-6xl leading-[30px]'
           >
-          Explore my collecition of diverse projects, showcasing the unique blend 
-          of my creativity and technical skills. From dynamic web applcations to
-          insightful data analysis and automation tools, each project reflects my 
-          genuine passion for tackling real-world problems and crafting solutions 
-          that make a meaningful impact.
+          Here is a small collection of projects I've worked on recently. 
+          Definitely check out the Critter Explorer web app, you can find 
+          both the frontend and the backend of the app on my github.
         </motion.p>
       </div>
 

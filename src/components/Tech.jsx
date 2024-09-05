@@ -26,9 +26,9 @@ const Tech = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-4 text-secondary text-[20px] max-w-6xl leading-[30px]'
           >
-          Explore a visual representation of the diverse array of technologies and frameworks
-          I've explored and mastered. Each ball showcases a unique tool or platform that I have
-          used to create innovative projects.
+          Here is a unique visual representation of many of the technologies 
+          and frameworks I've used through my univerisity and intern journey. 
+          You can spin the balls if you click on them...
           </p>
           <br></br>
           <p className="text-secondary text-lg mb-6">
