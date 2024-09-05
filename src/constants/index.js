@@ -25,6 +25,7 @@ import {
   ReactResume,
   DVDHub,
   aws,
+  CritterExplorerImage,
 } from "../assets";
 
 export const navLinks = [
@@ -211,21 +212,25 @@ const projects = [
     source_code_link: "https://github.com/kateewrightt/New-React-Resume",
   },
   {
-    name: "Task Master",
+    name: "Critter Explorer",
     description:
-      "C# Application that organizes tasks efficiently through intelligent task sequencing and resource optimization. ",
+      "A full-stack application that enhances the Animal Crossing experience by merging in-game data with real-world information. Users can search for critters, get real-life images, and explore critter details from Nookipedia.",
     tags: [
       {
-        name: "C#",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "Terminal App",
+        name: "Node.js",
         color: "green-text-gradient",
       },
+      {
+        name: "AWS",
+        color: "pink-text-gradient",
+      },
     ],
-    image: TaskMaster,
-    source_code_link: "https://github.com/kateewrightt/TaskMaster",
+    image: CritterExplorerImage, 
+    source_code_link: "https://critter-explorer.netlify.app/", 
   },
 
   {

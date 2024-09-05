@@ -59,10 +59,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[20px] max-w-6xl leading-[30px]'
       >
-        I'm in my final semester as a computer science student, 
+        I'm a recent computer science graduate, 
         fueled by my passion for software development and 
         driven by the thrill of problem-solving. 
-        I'm expecting to graduate June 2024 with a 6.5/7.0 GPA!
+        I have graduated in August 2024 with a 6.5/7.0 GPA!
       </motion.p>
       <br></br>
       <b variants={fadeIn("", "", 0.1, 1)}

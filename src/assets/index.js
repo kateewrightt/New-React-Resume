@@ -37,6 +37,7 @@ import bielby from "./company/bielby.png";
 import TaskMaster from "./TaskMaster.png";
 import DVDHub from "./DVDHub.png";
 import ReactResume from "./ReactResume.png";
+import CritterExplorerImage from "./CritterExplorerImage.png"
 
 export {
   logo,
@@ -75,4 +76,5 @@ export {
   TaskMaster,
   ReactResume,
   DVDHub,
+  CritterExplorerImage,
 };
