@@ -87,7 +87,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[20px] max-w-6xl leading-[30px]'
       >
-        Beyond coding, I'm currently living in Brisbane, 
+        I'm currently living in Brisbane 
         but I'm keen to move to Sydney in 2025. I've already 
         found some nice food spots in Sydney — but if you 
         have any food recommendations, I'd love to hear them! 
