@@ -91,8 +91,6 @@ const About = () => {
         but I'm keen to move to Sydney in 2025. I've already 
         found some nice food spots in Sydney — but if you 
         have any food recommendations, I'd love to hear them! 
-        I also spend a lot of time with my cat, Stewie, who's 
-        always around while I'm working on my projects.     
       </motion.p>
       <br></br>
       
